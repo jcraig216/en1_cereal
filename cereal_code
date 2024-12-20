@@ -72,9 +72,9 @@ while True:
     if not switch.value():
         
         #Actually dispensing milk
-#         transistor.value(1)
-#         dot_dot_dot_milk()
-#         transistor.value(0)
+        transistor.value(1)
+        dot_dot_dot_milk()
+        transistor.value(0)
         
         #Printing cereal on screen
         oled.fill(0)
